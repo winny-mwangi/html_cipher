@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 20px;
+    background: linear-gradient(135deg, #0f172a, #d3d3df);
+}
+.container{
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 15px 40 px #0003;
+}
+.logo{
+    display: grid;
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 15px;
+    border-radius: 12px;
+    background: #4f46e5;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+h1, .subtitle, .login{
+    text-align: center;
+}
+h1{
+    color: #172554;
+    margin-top: 8px;
+}
+.subtitle, .login{
+    color: #6474bb;
+    font-size: 14px;
+}
+.subtitle{
+    margin-bottom: 20px;
+}
+.input-group{
+    margin-top: 17px;
+}
+.input-group label{
+    display: block;
+    margin-bottom: 7px;
+    color: #334155;
+    font-size: 14px;
+    font-weight: bold;
+}
+.input-group input{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dbe2ef;
+    border-radius: 8px;
+    outline: none;
+    transition: .3s;
+}
+.input-group input :focus{
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 3px #4f46e522;
+
+}
+.terms{
+    display: flex;
+    gap: 8px;
+    margin: 20 px 0;
+    color: #64748b;
+    font-size: 12px;
+}
+button{
+    width: 100%;
+    padding: 13px;
+    border: 0;
+    background: #4f46e5;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    background-color: #172554;
+}
+.login{
+    margin-top: 20px;
+}
+a{
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media(max-width: 480px){
+    .container{
+        padding: 24px 18px;
+    }
+}
