@@ -3,11 +3,7 @@ list-style-type: none;
 margin: 0;
 padding: 0;
 overflow: hidden;
-background-color: ;
-}
-
-
-
+background-color: white;
 }
 li{
     float: left;
@@ -21,4 +17,3 @@ li a{
     font-family: 'Courier New', Courier, monospace;
 
 }
-li a:hover
